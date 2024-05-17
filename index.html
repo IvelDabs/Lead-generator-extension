@@ -8,13 +8,22 @@
     <title>My Leads</title>
 </head>
 <body>
-    <input type="text" id="input-el">
-    <button id="input-btn">SAVE INPUT</button>
-    <button id="tab-btn">SAVE TAB</button>
-    <button id="delete-btn">DELETE ALL</button>
-    <!-- <button id="delete-btn2">DELETE</button> -->
-    <ul id="ul-el">
-    </ul>
-    <div id="container"></div>
+    <div id="leads-generated">
+        <input type="text" id="input-el" placeholder="Paste here....">     
+        <button id="input-btn">Save Input</button>
+        <button id="tab-btn">Save Tab</button>
+        <button id="to-follow-up">To Focus</button>
+        <button id="delete-btn">Delete All</button>
+        <button id="delete-btn2">Delete First Entry</button>
+    </div>
+    <div>
+        <h3>Leads Generated:</h3>
+        <ul id="ul-el">
+        </ul>
+    </div>
+    <div id="leads-follow-up">
+        <h3>Leads To Focus:</h3>
+        <ul id="ul-el-2"></ul>
+    </div>
 </body>
 </html>
